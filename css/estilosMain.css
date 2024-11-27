@@ -38,7 +38,7 @@ header{
     padding: 10px 20px;
     text-decoration: none;
     display: block;
-    font-family:;
+    /* font-family:; */
 }
 
 .navbar ul li:hover > a {
@@ -53,6 +53,7 @@ footer{
     bottom: 0;
     width: 100%;
     background-color: rgba(210, 186, 236, 0.712);
+}
   
 a{
     text-decoration: none;
