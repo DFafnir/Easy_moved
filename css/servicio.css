@@ -1,83 +1,143 @@
-*{
+* {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url(../img/2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
-   
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .formulario {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.808);
     margin: 20px auto;
     margin-top: 100px;
     margin-bottom: 100px;
-    padding: 30px 30px;
+    padding: 40px;
     max-width: 800px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
-#titulo{
+
+#titulo {
     font-size: 3em;
-    font-family: Arial, Helvetica, sans-serif;
     color: #6db8f5;
-}
-h3{
-    padding: auto;
-    padding-top: 10px;
     text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
-.formulario h2 {
+
+
+h3 {
+    font-size: 1.5em;
+    color: #333;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .formulario label {
-    color: #000000;
+    color: #333;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 15px;
     display: block;
-    margin-top: 10px;
 }
 
 .formulario input[type="text"],
 .formulario input[type="email"],
 .formulario input[type="phone"],
-.formulario input[type="file"] {
+.formulario input[type="file"],
+.formulario textarea {
     width: 100%;
-    padding: 8px;
+    padding: 12px;
     margin-top: 5px;
     border-radius: 8px;
     border: 1px solid #ccc;
-    box-sizing: border-box;
+    font-size: 1em;
     color: #444a6d;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario input[type="phone"]:focus,
+.formulario textarea:focus {
+    border-color: #6db8f5;
+    outline: none;
+}
+
+.formulario textarea {
+    height: 150px;
+    resize: vertical;
 }
 
 .formulario button {
     width: 100%;
-    padding: 10px;
-    background-color: #82759b;
-    color: rgb(255, 255, 255);
+    padding: 12px;
+    background-color: #6db8f5;
+    color: white;
     border: none;
     border-radius: 8px;
-    margin-top: 15px;
+    font-size: 1.1em;
     cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
 }
 
 .formulario button:hover {
     background-color: #5080b0;
 }
 
-.radio-group, .checkbox-group {
+.radio-group,
+.checkbox-group {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.radio-group label, .checkbox-group label {
+.radio-group label,
+.checkbox-group label {
     font-weight: normal;
     margin: 0;
+}
+
+#ver-imagen {
+    display: none;
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.formulario h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    .formulario {
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #titulo {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    .formulario button {
+        font-size: 1em;
+        padding: 10px;
+    }
 }
