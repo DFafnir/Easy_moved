@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     background-image: url(../img/2.jpg);
     background-repeat: no-repeat;
@@ -9,6 +14,8 @@ body{
 .formulario {
     background: #fff;
     margin: 20px auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding: 30px 30px;
     max-width: 800px;
     border-radius: 8px;
