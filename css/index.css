@@ -48,12 +48,53 @@ p{
     cursor: pointer;
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px; 
+    padding: 20px; 
+    width: 250px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease-in-out; 
   }
   
   .my-button:hover {
+    transform: translateY(-5px); 
     background-color: #c38ee6;
-  }
+}
+
   
   .my-button:active {
     background-color: #acf1f3;
   }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    padding: 20px; 
+    text-align: center;
+}
+
+.box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    padding: 20px; 
+    width: 250px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease-in-out; 
+}
+
+.box:hover {
+    transform: translateY(-5px); 
+}
+
+.box h3 {
+    color: #275e68;
+    margin-bottom: 10px; 
+}
+
+.box p {
+    color: #2b2727;
+    font-size: 14px;
+    line-height: 1.5;
+}
