@@ -13,6 +13,11 @@ body {
     line-height: 1.6;
 }
 
+main{
+    margin: 80px;
+    
+}
+
 /* Contenedor principal */
 .container {
     width: 100%;
@@ -127,10 +132,11 @@ section p {
 /* Sección del Equipo */
 .team-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 50px;
     margin-top: 100px;
+    padding: 15px;
 }
 
 .team-member {
@@ -138,7 +144,7 @@ section p {
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    width: 260px;
+    width: 22vw;
     text-align: center;
     position: relative;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -292,5 +298,7 @@ button:active {
         grid-template-columns: 1fr;
     }
 
-    .team-container {
+    /* .team-container {
         flex
+    } */
+}

@@ -40,11 +40,26 @@ header{
     padding: 10px 20px;
     text-decoration: none;
     display: block;
+    border-radius: 5px;
+    /* background-color: rgba(111, 184, 206, 0.637); */
     /* font-family:; */
 }
 
 .navbar ul li:hover > a {
-    background-color: #1a173f69;
+    background-color: #212c5e69;
+}
+
+.navbar ul ul{
+    display: none;
+    position: absolute;
+}
+
+.navbar ul ul li{
+    float: none;
+}
+
+.navbar ul li:hover ul{
+    display: block;
 }
 
 footer{ 

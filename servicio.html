@@ -13,7 +13,11 @@
         <nav class="navbar">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="servicio.html">Servicio</a></li>
+                <li><a href="informacion.html">Servicio</a>
+                    <ul>
+                        <li><a href="servicio.html">Solicitar servicio</a></li>
+                    </ul>
+                </li>
                 <li><a href="acercade.html">Acerca de</a></li>
                 <li><a href="sesion.html">Usuario</a></li>
             </ul>
@@ -39,7 +43,7 @@
             <label for="nombre_discapacidad">Tipo de Discapacidad:</label>
             <input type="text" id="nombre" name="nombre" required>
 
-            <br>
+            <br><br>
             <h3 id="2">Detalles del viaje</h3>
              
             <label for="lugar">Punto de origen:</label>
@@ -54,11 +58,11 @@
             <label for="hora2">Hora de Llegada:</label>
             <input type="text" id="nombre" name="nombre" required>
 
-            <br>
+            <br><br>
             <h3>Necesidades específicas</h3>
             <label>¿Usas silla de ruedas?</label>
             <div class="radio-group">
-                <input type="radio" id="wheelchair-yes" name="wheelchair" value="sí" required>
+                <input type="radio" id="wheelchair-yes" name="wheelchair" value="sí">
                 <label for="wheelchair-yes">Sí</label>
                 <input type="radio" id="wheelchair-no" name="wheelchair" value="no">
                 <label for="wheelchair-no">No</label>

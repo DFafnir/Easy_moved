@@ -13,6 +13,7 @@ body {
 center {
     text-align: center;
     margin: 50px auto;
+    margin-bottom: 10px;
 }
 
 #titulo1 {
@@ -103,6 +104,7 @@ p {
     font-size: 1em;
     line-height: 1.6;
 }
+
 
 /* Estilo responsivo */
 @media (max-width: 768px) {
