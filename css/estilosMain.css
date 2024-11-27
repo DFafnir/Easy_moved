@@ -4,16 +4,17 @@
 }
 
 header{
+    background-color: rgba(148, 197, 212, 0.637);
     font-family: Arial, Helvetica, sans-serif;
-    width: 97%;
-    position: fixed;
+    width: 100%;
     z-index: 100;
     padding: 10px;
     display: flex; 
     justify-content: space-between;
     align-items: center;
     margin-right: 4%;
-    font-size: small;
+    font-size: 1em;
+
 }
 
 .navbar{
@@ -33,7 +34,7 @@ header{
 }
 
 .navbar ul li a {
-    color: #000000;
+    color: white;
     padding: 10px 20px;
     text-decoration: none;
     display: block;
