@@ -1,0 +1,73 @@
+
+section{
+    padding-top: 4%;
+}
+.formulario {
+    background: #fff;
+    width: 520px;
+    margin: 20px auto;
+    padding: 20px 30px;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#titulo{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6db8f5;
+}
+h3{
+    padding: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+.formulario h2 {
+    text-align: center;
+}
+
+.formulario label {
+    color: #000000;
+    display: block;
+    margin-top: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="phone"],
+.formulario input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #444a6d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    background-color: #82759b;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #5080b0;
+}
+
+.radio-group, .checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.radio-group label, .checkbox-group label {
+    font-weight: normal;
+    margin: 0;
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Easy moved</title>
     <link rel="stylesheet" href="/css/estilosMain.css">
+    <link rel="stylesheet" href="/css/servicio.css">
 </head>
 <body>
     <header>
@@ -18,10 +19,64 @@
             </ul>
         </nav>
     </header>
+    <script src="./script/formulario_funciones.js"> </script>
+    <section>
+        <form id="formulario" class="formulario" onsubmit="return validarFormulario()">
+            <h2 id="titulo">Solicitar Servicio</h2><br>
+
+            <h3>Información personal</h3>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="phone">Número de teléfono:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="nombre_discapacidad">Tipo de Discapacidad:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <br>
+            <h3 id="2">Detalles del viaje</h3>
+             
+            <label for="lugar">Punto de origen:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="lugar">Destino:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="hora1">Hora de Salida:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="hora2">Hora de Llegada:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <br>
+            <h3>Necesidades específicas</h3>
+            <label>¿Usas silla de ruedas?</label>
+            <div class="radio-group">
+                <input type="radio" id="wheelchair-yes" name="wheelchair" value="sí" required>
+                <label for="wheelchair-yes">Sí</label>
+                <input type="radio" id="wheelchair-no" name="wheelchair" value="no">
+                <label for="wheelchair-no">No</label>
+            </div>
+
+            <label for="additional">Requerimientos adicionales (opcional):</label>
+            <textarea id="text" name="additional" ></textarea>
+
+            <label for="imagen">Imágen de lugar de destino (Opcional):</label>
+            <input type="file" id="imagen" name="imagen" accept=".jpg, .jpeg, .png" onchange="mostrarImagen(event)">
+
+            <img id="ver-imagen" src="" alt="Vista previa de imagen" style="display:none; width: 100px; height: auto; margin-top: 10px; border-radius: 50%;">
+
+            <button type="submit">Solicitar</button>
+        </form>
+    </section>
 
     <footer>
-        <a href="servicio.html">Contactanos</a>
-        <a href="acercade.html">Terminos y condiciones</a>
+        <a >Contactanos</a>
+        <a >Terminos y condiciones</a>
         <h3>@ Todos los derechos reservados</h3>
     </footer>
 
