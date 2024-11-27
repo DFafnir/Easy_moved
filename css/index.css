@@ -1,6 +1,6 @@
 
 body {
-    background-image: url(../img/color1.webp);
+    background-image: url(../img/Diseño\ sin\ título.png);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
@@ -10,16 +10,21 @@ body {
 }
 
 
-center {
-    text-align: center;
-    margin: 50px auto;
+.central {
+    text-align: right;
+    margin: 50px ;
+    margin-right: 80px;
     margin-bottom: 10px;
+    display: block;
+    
 }
 
 #titulo1 {
+
     font-size: 2.5em;
     color: #6b9c9c;
     margin-bottom: 10px;
+    margin-right: 200px;
     margin-top: 80px; /* Ajusta este valor para bajar el título */
 }
 
@@ -27,6 +32,7 @@ center {
     font-size: 4.5em;
     color: #7fbaff;
     margin-bottom: 10px;
+    margin-right: 130px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -34,6 +40,7 @@ center {
     font-size: 1.8em;
     color: #3b5353;
     margin-bottom: 20px;
+    margin-right: 135px;
 }
 
 p {
@@ -41,6 +48,7 @@ p {
     line-height: 1.6;
     color: #555;
     margin-bottom: 20px;
+    
 }
 
 .my-button {
@@ -52,6 +60,7 @@ p {
     cursor: pointer;
     font-size: 1.2em;
     font-weight: bold;
+    margin-right: 245px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
@@ -70,7 +79,7 @@ p {
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: stretch;
     gap: 30px;
     flex-wrap: wrap;
@@ -78,12 +87,19 @@ p {
     text-align: center;
 }
 
+.texto{
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: 0;
+}
+
 .box {
     background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 15px;
     padding: 20px;
-    width: 300px;
+    width: 220px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
