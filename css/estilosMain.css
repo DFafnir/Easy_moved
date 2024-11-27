@@ -72,6 +72,9 @@ footer{
     background-color: rgba(210, 186, 236, 0.712);
 }
   
+header img{
+    width:125px;
+}
 a{
     text-decoration: none;
     padding: 0.4%;
