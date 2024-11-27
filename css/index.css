@@ -15,7 +15,12 @@
         display: flex; 
     } 
     } 
-
+    
+body{
+    background-image: url(../img/color1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
